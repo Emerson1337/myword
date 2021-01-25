@@ -1,0 +1,5 @@
+criar um site que adicione:
+
+palavras em ingles e suas traduções em portugues.
+
+com possbilidade de mais que uma definição e edição das já existentes.

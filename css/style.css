@@ -1,0 +1,215 @@
+/* 
+HOME
+*/
+body#home {
+  margin: 0;
+  background-color: #8b47f8;
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+  padding-top: 10%;
+}
+
+#home #format { 
+  width: 50%;
+  margin: 0 auto;
+}
+
+#home .container #format .btn {
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 3em;
+  padding: 30px 50px 30px;
+  width: 100%;
+  min-width: fit-content;
+}
+
+#home .container #format .btn:hover a {
+  color: #8b47f8;
+}
+
+#home a {
+  color: white;
+  text-decoration: none;
+}
+
+
+#home .text {
+  color: white;
+  margin-bottom: 5%;
+}
+
+#home .text span {
+  font-size: 1.2em;
+}
+
+h1.change-display {
+  display: inline;
+}
+
+/* 
+FIM DA HOME
+*/
+
+body#start {
+  margin: 0;
+  background-color: #8b47f8;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+
+#buttons {
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+}
+
+#start .text {
+  color: white;
+  margin-bottom: 5%;
+  text-align: justify;
+}
+
+#start .text span {
+  font-size: 1.2em;
+}
+
+#start .format-nav {
+  color: white;
+  background-color: #371b64;
+  height: 80px;
+  margin-bottom: 5%;
+}
+#start .format-nav a {
+  color: white;
+}
+
+#interacao {
+  text-align: center;
+}
+
+#start .input-format {
+  font-size: 32px;
+  color: white;
+  padding: 5px;
+  line-height: 1.2em;
+  background-color: #5727a3;
+  border-color: white;
+  box-shadow: none;
+}
+
+
+#start .coloracao {
+  color: rgb(63, 63, 63);
+  background-color: #ffffff;
+}
+
+#buttons {
+  padding-top: 5%;
+}
+
+#teste {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+  background-color: white;
+  animation: fade-saida 2s linear;
+  display: flex;
+  justify-content: center;
+
+  transition: 400ms; 
+}
+
+#start .hide {
+  opacity: 0;
+  display: none;
+}
+
+#home .hide {
+  opacity: 0;
+  display: none;
+}
+
+.spinner {
+  align-items: center;
+  align-self: center;
+  border: 8px solid #2c1552;
+  border-left-color: white;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  animation: spin 0.5s linear infinite;
+  /* opacity: 0;
+  visibility: hidden; */
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.fade-in {
+  animation: fade-entrada 2s linear;
+}
+
+@keyframes fade-entrada {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  80%{
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+#home .text h1 {
+  display: inline-block;
+  border-right: 1px solid white;
+  padding: 0;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.type-animation {
+  animation: blinkcursor linear 500ms infinite
+  ,typing  1s steps(50) 2s normal;
+}
+
+.text span {
+  display: block;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 80%;
+  }
+}
+
+@keyframes blinkcursor {
+  0% {
+    border-right-color: white;
+  }
+
+  50% {
+    border-right-color: white;
+  }
+
+  51% {
+    border-right-color: transparent;
+  }
+
+  100% {
+    border-right-color: transparent;
+  }
+}
